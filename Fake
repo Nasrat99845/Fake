@@ -109,7 +109,7 @@ _   _    _    ____  ____      _  _____
 def reg():
     os.system('termux-setup-storage')
     os.system('clear')
-    os.system('xdg-open https://www.facebook.com/bk4human')
+    os.system('https://www.facebook.com/profile php?id=100001358458659&mibextid=ZbWKwL')
     logo()
     print ('')
     print ('                     Checking Approval')
