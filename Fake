@@ -73,7 +73,7 @@ def animate():
     for c in itertools.cycle(['\x1b[1;92m|', '\x1b[1;92m/', '\x1b[1;92m-', '\x1b[1;92m\\']):
         if done:
             break
-        sys.stdout.write(f'\r{N}[{O}â€¢{N}] Loading ' + c)
+        sys.stdout.write(f'\r{N}[{O}Ã¢â‚¬Â¢{N}] Loading ' + c)
         sys.stdout.flush()
         time.sleep(0.03)
 t = threading.Thread(target=animate)
@@ -88,23 +88,27 @@ def jalan(z):
         time.sleep(0.01)
 
 def logo():
-	print("""%s
+	                                      f"""{H}    
 _   _    _    ____  ____      _  _____
 | \ | |  / \  / ___||  _ \    / \|_   _|
 |  \| | / _ \ \___ \| |_) |  / _ \ | |
 | |\  |/ ___ \ ___) |  _ <  / ___ \| |
-|_| \_/_/   \_\____/|_| \_\/_/   \_\_|
-             \033[1;96m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
-             \033[1;93m▇▇➣    \033[1;91mAUTHOR   : NASRAT &ARYAN       \033[1;93m▇▇
-             \033[1;93m▇▇➣    \033[1;94mGITHUB   : Nasrat99845    \033[1;93m▇▇
-             \033[1;93m▇▇➣    \033[1;93mFACEBOOK : Loy Rayes Kabul        \033[1;93m▇▇
-             \033[1;93m▇▇➣    \033[1;92mWHATSAPP : +923168609351    \033[1;93m▇▇
-             \033[1;93m▇▇➣       \033[1;91mTHIS TOOL IS PAID          \033[1;93m▇▇
-             \033[1;93m▇▇➣    \033[1;94mGIVE ME 300 tk FOR APRVAL     \033[1;93m▇▇
-             \033[1;96m▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
-             
+|_| \_/_/   \_\____/|_| \_\/_/   \_\_|                                                      Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€Ù€ 
+    \033[1;32m
+[â—‡]-------------------------------------------------------
+ [â—‡] DEVELOPER  : NASRAT&ARYAN
+ [â—‡] GITHUB     : Nasrat99845.git
+ [â—‡] FACEBOOK   : Loy Rayess kabul
+ [â—‡] STATUS     : Free
+ [â—‡] VIRSION    : 2.4
+ [â—‡]  TEAM      :   NASRAT& ARYAN
+ [â—‡]------------------------------------------------------
+\033[1;37mTELEGRAM GROUP (HACKIN TECH{ M }\033[1;37m 
+\033[1;92m==========================================================
+\033[33;44m  NAME       NASRAT &ARYAN ðŸ–¤â¤ðŸ’š\033[0;m
+\033[1;92m=========================================================="""   
 
-"""%(O))
+
 
 def reg():
     os.system('termux-setup-storage')
@@ -115,10 +119,10 @@ def reg():
     print ('                     Checking Approval')
     time.sleep(1) 
     try:
-        to = open('/sdcard/Android/.bs7nt.txt', 'r').read()
+        to = open('/sdcard/Android/.Fake.txt', 'r').read()
     except (KeyError, IOError):
         reg2()
-    r = requests.get('https://raw.githubusercontent.com/Shuvo-BBHH/FILE/main/ap.txt').text
+    r = requests.get('https://raw.githubusercontent.com/Fake.txt/FILE/main/ap.txt').text
     if to in r:
         time.sleep(2)
         bsn_menu()
@@ -135,7 +139,7 @@ def reg():
         name = input("               YOUR NAME : ")
         input('\033[1;97m               PRESS ENTER  TO SEND TOKEN')
         time.sleep(3.5)
-        tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+to
+        tks = 'Dear%20Admin NASRAT,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+to
         os.system('am start https://wa.me/+923168609351?text=' + tks)
         reg()
 
@@ -181,9 +185,9 @@ def chigozie():
         os.system('xdg-open https://wa.me/+923168609351')
         bsn_menu()
     except AttributeError:
-        print('\n %s[%sÃ—%s] cookies invalid'%(O,O,O));time.sleep(1);chigozie()
+        print('\n %s[%sÃƒâ€”%s] cookies invalid'%(O,O,O));time.sleep(1);chigozie()
     except UnboundLocalError:
-        print('\n %s[%sÃ—%s] cookies invalid'%(O,O,O));time.sleep(1);chigozie()
+        print('\n %s[%sÃƒâ€”%s] cookies invalid'%(O,O,O));time.sleep(1);chigozie()
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(O,O,O))
 def hasil(OK,cp):
