@@ -122,7 +122,7 @@ def NASRAT():
         to = open('/sdcard/Android/.NASRAT.txt', 'r').read()
     except (KeyError, IOError):
         NASRAT2()
-    r = requests.get('https://github.com/Nasrat99845/NASRAT.txt/FILE/main/ap.txt').text
+    r = requests.get('https://github.com/Nasrat99845/NASRAT.txt').text
     if to in r:
         time.sleep(2)
         bsn_menu()
